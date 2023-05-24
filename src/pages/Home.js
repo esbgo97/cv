@@ -22,7 +22,7 @@ const Home = () => {
       <Card>
         <CardContent>
           <Grid container spacing={2}>
-            <Grid item xs={6}>
+            <Grid item xs={12} sm={6}>
               <Box sx={{ display: "flex", justifyContent: "center" }}>
                 <img
                   src={profile}
@@ -33,7 +33,7 @@ const Home = () => {
                 />
               </Box>
             </Grid>
-            <Grid item xs={6}>
+            <Grid item xs={12} sm={6}>
               <Typography variant="h4">
                 I'm <b>Edward Bustos</b>
               </Typography>

@@ -14,26 +14,26 @@ export const Navigation = () => {
     >
       <ButtonGroup variant="text">
         <Button>
-          <Link style={{ textDecoration: "none", color:"white" }} to="/home">
+          <Link style={{ textDecoration: "none", color:"white" }} to="/">
             Home
           </Link>
         </Button>
 
         <Button>
           <Link style={{ textDecoration: "none", color:"white" }} to="/experiences">
-            Experiencias Laborales
+            Work Experience
           </Link>
         </Button>
 
         <Button>
           <Link style={{ textDecoration: "none", color:"white" }} to="/education">
-            Educación y Certificados
+            Education and Certificates
           </Link>
         </Button>
 
         <Button>
           <Link style={{ textDecoration: "none", color:"white" }} to="/portfolio">
-            Portafolio
+            Portfolio
           </Link>
         </Button>
       </ButtonGroup>

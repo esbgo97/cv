@@ -32,10 +32,10 @@ function App() {
           <Navigation />
 
           <Routes>
-            <Route exact path="/home" element={<Home />} />
-            <Route path="/experiences" element={<Experiences />} />
-            <Route path="/education" element={<Education />} />
-            <Route path="/portfolio" element={<Portfolio />} />
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/experiences" element={<Experiences />} />
+            <Route exact path="/education" element={<Education />} />
+            <Route exact path="/portfolio" element={<Portfolio />} />
           </Routes>
         </Router>
       </Container>
