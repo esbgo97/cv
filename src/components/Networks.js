@@ -6,7 +6,7 @@ export const Networks = () => {
   return (
     <CardActions
       sx={{ display: "flex", justifyContent: "center", borderSpacing: 1 }}
-      style={{ backgroundColor: "rgba(0, 0, 0, .3)" }}
+      style={{ backgroundColor: "#1F788C" }}
     >
       <IconButton size="large">
         <LinkedIn sx={{ "&:hover": { color: "#0A66C2" } }} fontSize="large" />

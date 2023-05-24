@@ -6,7 +6,7 @@ import {
   Divider,
   Grid,
   Typography,
-  Avatar,
+  Slider,
 } from "@mui/material";
 import { Networks } from "../components/Networks";
 import { PersonalInformation } from "../components/PersonalInformation";
@@ -19,7 +19,7 @@ const Home = () => {
       <br />
       <br />
       <br />
-      <Card>
+      <Card elevation={4}>
         <CardContent>
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6}>
@@ -34,7 +34,7 @@ const Home = () => {
               </Box>
             </Grid>
             <Grid item xs={12} sm={6}>
-              <Typography variant="h4">
+              <Typography variant="h4" color="primary.main">
                 I'm <b>Edward Bustos</b>
               </Typography>
               <Typography variant="subtitle">
@@ -52,11 +52,38 @@ const Home = () => {
 
         <Networks />
       </Card>
+      <br />
       <Grid container spacing={2}>
        
         <Grid item xs={6}>
-          <Typography variant="h4"> About Me</Typography>
-          <p style={{textAlign:"justify"}}>
+          <Typography variant="h4" color="primary.main">
+            Skills
+          </Typography>
+          <ul>
+            <li>
+              Software Development (.NET, JavaScript)
+              <Slider color="primary" value={95} />
+            </li>
+            <li>
+              Data Analyst (SQL, Power BI)
+              <Slider color="primary" value={70} />
+            </li>
+            <li>
+              DevOps Expert
+              <Slider color="primary" value={90} />
+            </li>
+            <li>
+              Azure Expert
+              <Slider color="primary" value={80} />
+            </li>
+          </ul>
+        </Grid>
+
+        <Grid item xs={6}>
+          <Typography variant="h4" color="primary.main">
+            About Me
+          </Typography>
+          <p style={{ textAlign: "justify" }}>
             Developer with experience in .NET and JavaScript technologies,
             passionate about programming and software design. I am a dynamic
             person, I like to learn and work as a team, persistent in meeting
@@ -65,15 +92,6 @@ const Home = () => {
           </p>
         </Grid>
 
-        <Grid item xs={6}>
-        <Typography variant="h4"> Skills</Typography>
-            <ul>
-                <li>Software Development (.NET, JavaScript)</li>
-                <li>Data Analyst (SQL, Power BI)</li>
-                <li>DevOps Expert</li>
-                <li>Azure Expert</li>
-            </ul>
-        </Grid>
       </Grid>
     </div>
   );

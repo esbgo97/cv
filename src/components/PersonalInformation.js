@@ -6,13 +6,13 @@ const PersonalItem = (props) => {
 
   return (
     <>
-      <Grid item xs={6}>
+      <Grid item xs={3}>
         <Typography variant="button" fontSize={18}>
           <b>{label}:</b>
         </Typography>
       </Grid>
 
-      <Grid item xs={6}>
+      <Grid item xs={9}>
         <Typography variant="subtitle1" fontSize={18}>
           {value}
         </Typography>
@@ -25,6 +25,7 @@ export const PersonalInformation = () => {
   return (
     <Grid container>
       <PersonalItem label="Age" value="26" />
+      <PersonalItem label="Experience" value="+6 Years" />
       <PersonalItem
         label="Address"
         value="Calle 11 # 16 - 41, Chiquinquirá - Boyacá (COL)"

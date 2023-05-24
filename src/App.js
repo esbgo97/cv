@@ -18,7 +18,7 @@ const styles = {
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     width: "100vw",
-    height: "50vh",
+    height: "70vh",
   },
 };
 
@@ -27,7 +27,7 @@ function App() {
     <div style={styles.container}>
       <Container>
         <Router>
-          <Typography variant="h3" style={{backgroundColor:"rgba(255, 255, 255, .7)"}}>Edward Bustos's Curriculum</Typography>
+          {/* <Typography variant="h3" color="primary.main">Edward Bustos's Curriculum</Typography> */}
 
           <Navigation />
 
