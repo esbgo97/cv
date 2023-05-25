@@ -15,7 +15,11 @@ export default function Portfolio() {
 
         <ImageList>
           {itemData.map((item) => (
-            <ImageListItem key={item.img} style={{ cursor: "pointer" }}>
+            <ImageListItem
+              key={item.img}
+              style={{ cursor: "pointer" }}
+              onClick={() => window.open(item.url)}
+            >
               <img
                 src={`${item.img}?w=248&fit=crop&auto=format`}
                 srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
@@ -40,30 +44,35 @@ const itemData = [
     img: "https://dev-to-uploads.s3.amazonaws.com/i/grki97glctbmjydzqejw.png",
     title: "WEB: Personal Blog",
     author: "React, Push Notification, Firebase",
+    url: "https://github.com/esbgo97/demo-react",
   },
   {
     img: "https://www.programaenlinea.net/wp-content/uploads/2020/07/net-1.png",
     title: "API: External API with Swagger Docs",
     author: ".NET Core, Swagger, PostgreSQL",
+    url: "https://github.com/esbgo97/demo-netcore-api",
   },
+  // {
+  //   img: "https://miro.medium.com/v2/resize:fit:1358/0*wuNf24urnMp7ypDp.png",
+  //   title: "WEB: Movies App Demo",
+  //   author: "Javascript, Angular, Node",
+  // },
   {
-    img: "https://miro.medium.com/v2/resize:fit:1358/0*wuNf24urnMp7ypDp.png",
-    title: "WEB: Movies App Demo",
-    author: "Javascript, Angular, Node",
-  },
-  {
-    img: "https://www.sngular.com/wp-content/uploads/2022/04/Flutter-Blog.png",
+    img: "https://openwebsolutions.in/blog/wp-content/uploads/2019/04/all-about-react-native-apps-776x415.png",
     title: "Cross Platform App: Personal Manager",
-    author: "Flutter, Firebase, Android Studio",
+    author: "React, Firebase, Location Service, API Requests",
+    url: "https://github.com/esbgo97/demo-react-native",
   },
-  {
-    img: "https://miro.medium.com/v2/resize:fit:1400/1*m0H6-tUbW6grMlezlb52yw.png",
-    title: "ML - Flower Detector",
-    author: "Python, NumPy, TensorFlow",
-  },
+  // {
+  //   img: "https://miro.medium.com/v2/resize:fit:1400/1*m0H6-tUbW6grMlezlb52yw.png",
+  //   title: "ML - Flower Detector",
+  //   author: "Python, NumPy, TensorFlow",
+  //   url:""
+  // },
   {
     img: "https://www.jrebel.com/sites/default/files/image/2021-01/what%20is%20kotlin%20banner%20image.png",
     title: "Android Native App: Personal Taxes",
     author: "Kotlin, Android Studio",
+    url: "https://github.com/esbgo97/perman",
   },
 ];

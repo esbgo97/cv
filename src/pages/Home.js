@@ -19,6 +19,7 @@ import {
   Download,
   Extension,
   Flight,
+  MenuBook,
   MusicNote,
   PedalBike,
 } from "@mui/icons-material";
@@ -122,6 +123,7 @@ const Home = () => {
                 }}
               >
                 <Chip label="Mountain Bike" icon={<PedalBike />} />
+                <Chip label="Read Books" icon={<MenuBook />} />
                 <Chip label="Travel" icon={<Flight />} />
                 <Chip label="Play Guitar" icon={<MusicNote />} />
                 <Chip label="Puzzle Revolve" icon={<Extension />} />
