@@ -13,7 +13,7 @@ export default function Portfolio() {
           Portfolio
         </Typography>
 
-        <ImageList>
+        <ImageList cols={3} >
           {itemData.map((item) => (
             <ImageListItem
               key={item.img}
@@ -59,7 +59,7 @@ const itemData = [
   // },
   {
     img: "https://openwebsolutions.in/blog/wp-content/uploads/2019/04/all-about-react-native-apps-776x415.png",
-    title: "Cross Platform App: Personal Manager",
+    title: "Cross Platform App: ShowCase App",
     author: "React, Firebase, Location Service, API Requests",
     url: "https://github.com/esbgo97/demo-react-native",
   },
@@ -71,7 +71,7 @@ const itemData = [
   // },
   {
     img: "https://www.jrebel.com/sites/default/files/image/2021-01/what%20is%20kotlin%20banner%20image.png",
-    title: "Android Native App: Personal Taxes",
+    title: "Android Native App: Personal Manager",
     author: "Kotlin, Android Studio",
     url: "https://github.com/esbgo97/perman",
   },

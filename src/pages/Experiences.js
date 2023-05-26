@@ -64,6 +64,9 @@ export default function Experiences() {
         <Typography variant="h4" color="primary.main">
           Work Experience
         </Typography>
+        <p>
+          Here I briefly show you some of my Work Experiences as Software Enginner.
+        </p>
         <Grid container>
           <Grid item md={2}></Grid>
           <Grid item md={8}>
