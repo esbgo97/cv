@@ -11,9 +11,13 @@ export const Navigation = () => {
       alignContent={"center"}
       justifyContent="right"
     >
-      <Tabs textColor="white" value={selected}>
-        <Link to="/" style={{ textDecoration: "none", color: "white" }} >
-          <Tab label="Home" onClick={() => setSelected(0)} />
+      <Tabs value={selected}>
+        <Link to="/" style={{ textDecoration: "none", color: "white" }}>
+          <Tab
+            label="Home"
+            onClick={() => setSelected(0)}
+            sx={{ "&:hover": { fontWeight: "bold" } }}
+          />
         </Link>
 
         <Link
