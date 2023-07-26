@@ -71,7 +71,7 @@ const Home = () => {
       </Card>
       <br />
       <Container>
-        <Grid container spacing={2}>
+        <Grid container spacing={4}>
           <Grid item xs={12} sm={12} md={6}>
             <Typography variant="h4" color="primary.main">
               Skills
@@ -79,18 +79,18 @@ const Home = () => {
             <ul>
               <li>
                 Software Development (.NET, JavaScript)
+                <Slider color="primary" value={100} />
+              </li>              
+              <li>
+                DevOps Expert
                 <Slider color="primary" value={95} />
               </li>
               <li>
-                Data Analyst (SQL, Power BI)
-                <Slider color="primary" value={70} />
-              </li>
-              <li>
-                DevOps Expert
+                Azure Expert
                 <Slider color="primary" value={90} />
               </li>
               <li>
-                Azure Expert
+                Data Analyst (SQL, Power BI)
                 <Slider color="primary" value={80} />
               </li>
             </ul>
@@ -101,13 +101,14 @@ const Home = () => {
               <Typography variant="h4" color="primary.main">
                 About Me
               </Typography>
-              <p style={{ textAlign: "justify" }}>
-                Developer with experience in .NET and JavaScript technologies,
+              <Typography variant="subtitle1" textAlign="justify">
+              Developer with experience in .NET and JavaScript technologies,
                 passionate about programming and software design. I am a dynamic
                 person, I like to learn and work as a team, persistent in
                 meeting goals and objectives that lead to the improvement of my
                 life project and those around me.
-              </p>
+              </Typography>
+                
             </Grid>
 
             <Grid item sm={12}>
@@ -118,8 +119,9 @@ const Home = () => {
               <Box
                 sx={{
                   display: "flex",
-                  flex: 1,
-                  justifyContent: "space-evenly",
+                  flexDirection:"row",
+                  alignItems:"center",
+                  justifyItems:"end"
                 }}
               >
                 <Chip label="Mountain Bike" icon={<PedalBike />} />

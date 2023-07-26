@@ -42,6 +42,12 @@ export const Navigation = () => {
         >
           <Tab label="Portfolio" onClick={() => setSelected(3)} />
         </Link>
+        {/* <Link
+          style={{ textDecoration: "none", color: "white" }}
+          to="/blog"
+        >
+          <Tab label="Blog" onClick={() => setSelected(3)} />
+        </Link> */}
       </Tabs>
     </Box>
   );

@@ -8,6 +8,7 @@ import Experiences from "./pages/Experiences";
 import Education from "./pages/Education";
 import Portfolio from "./pages/Portfolio";
 import Home from "./pages/Home";
+import Blog from "./pages/Blog";
 import { Navigation } from "./components/Navigation";
 
 const styles = {
@@ -29,6 +30,7 @@ function App() {
             <Route exact path="/experiences" element={<Experiences />} />
             <Route exact path="/education" element={<Education />} />
             <Route exact path="/portfolio" element={<Portfolio />} />
+            <Route exact path="/blog" element={<Blog />} />
           </Routes>
         </Router>
       </Container>
