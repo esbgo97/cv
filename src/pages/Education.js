@@ -5,7 +5,6 @@ import {
   AccordionSummary,
   Card,
   CardContent,
-  Box,
   Typography,
   Grid,
   Divider,
@@ -17,6 +16,7 @@ import sena_logo from "../assets/sena_logo.png";
 
 import plural_logo from "../assets/plural_logo.png";
 import udemy_logo from "../assets/udemy_logo.png";
+import platzi_logo from "../assets/platzi_logo.png";
 
 const studies = [
   {
@@ -56,6 +56,18 @@ const studies = [
 
 const courses = [
   {
+    title: "Python Expert",
+    institute: "Platzi",
+    year: "2024",
+    logo: platzi_logo,
+  },
+  {
+    title: "UI/UX Expert",
+    institute: "Platzi",
+    year: "2024",
+    logo: platzi_logo,
+  },
+  {
     title: "JWT Authentication",
     institute: "Udemy",
     year: "2019",
@@ -91,7 +103,7 @@ const EducationItem = (props) => {
           </Grid>
 
           <Grid item md="3">
-            <img src={info.logo} height={50} />
+            <img src={info.logo} height={50} alt="Logo"/>
           </Grid>
         </Grid>
       </AccordionSummary>

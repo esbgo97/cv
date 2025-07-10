@@ -42,15 +42,15 @@ const PersonalItem = (props) => {
 
 export const PersonalInformation = () => {
   return (
-    <Grid container>
-      <PersonalItem label="Experience" value="+6 Years" icon={<Work color="primary"/>} />
-      <PersonalItem label="Age" value="26" icon={<Celebration color="primary"/>} />
+    <Grid container px={2}>
+      <PersonalItem label="Experience" value="+8 Years" icon={<Work color="primary"/>} />
+      <PersonalItem label="Age" value="28" icon={<Celebration color="primary"/>} />
       <PersonalItem
         label="Location"
         icon={<LocationOn color="primary"/>}
         element={
           <>
-            Chiquinquirá - Boyacá (<ReactCountryFlag countryCode="CO" svg />)
+            Bogotá D.C. (<ReactCountryFlag countryCode="CO" svg />)
           </>
         }
       />

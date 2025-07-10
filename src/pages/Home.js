@@ -78,7 +78,7 @@ const Home = () => {
             </Typography>
             <ul>
               <li>
-                Software Development (.NET, JavaScript)
+                Software Development (.NET, Python & JavaScript)
                 <Slider color="primary" value={100} />
               </li>              
               <li>
