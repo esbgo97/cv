@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/cv/static/css/main.073c9b0a.css",
-    "main.js": "/cv/static/js/main.083c8098.js",
+    "main.js": "/cv/static/js/main.889775a8.js",
     "static/js/787.a71561b8.chunk.js": "/cv/static/js/787.a71561b8.chunk.js",
+    "static/media/cv_edwardbustos.pdf": "/cv/static/media/cv_edwardbustos.fcaa9077d8c4264c85a7.pdf",
     "static/media/profile.jpeg": "/cv/static/media/profile.f2d97c111e04d2ff8794.jpeg",
     "static/media/sistran_logo.png": "/cv/static/media/sistran_logo.66ddfc7fe8d156a63187.png",
-    "static/media/cv_edwardbustos.pdf": "/cv/static/media/cv_edwardbustos.cc2f794f248c78f2993d.pdf",
     "static/media/itehl_logo.png": "/cv/static/media/itehl_logo.df20b43c89ff7582ab43.png",
+    "static/media/platzi_logo.png": "/cv/static/media/platzi_logo.b97a9db042bad01d4335.png",
     "static/media/qvision_logo.png": "/cv/static/media/qvision_logo.2eba5b745dac8954cd3b.png",
     "static/media/macs_logo.jpg": "/cv/static/media/macs_logo.7bdc4f82aeb3074f321c.jpg",
+    "static/media/ceiba_logo.png": "/cv/static/media/ceiba_logo.6f0e9df0d830a02b46d0.png",
     "index.html": "/cv/index.html",
     "main.073c9b0a.css.map": "/cv/static/css/main.073c9b0a.css.map",
-    "main.083c8098.js.map": "/cv/static/js/main.083c8098.js.map",
+    "main.889775a8.js.map": "/cv/static/js/main.889775a8.js.map",
     "787.a71561b8.chunk.js.map": "/cv/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.083c8098.js"
+    "static/js/main.889775a8.js"
   ]
 }
